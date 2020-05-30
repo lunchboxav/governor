@@ -1,0 +1,24 @@
+{
+  "color": {
+    "yellow": "yellow",
+    "black": "black",
+    "white": "white"
+  },
+  "font": {
+    "size": {
+      "md": "1rem"
+    }
+  },
+  "space": {
+    "default": "16px"
+  },
+  "background-color": {
+    "default": "white"
+  },
+  "text-color": {
+    "default": "black"
+  },
+  "text-size": {
+    "default": "1rem"
+  }
+}
