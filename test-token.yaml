@@ -1,0 +1,24 @@
+# Choices
+
+color:
+  yellow: &color-yellow "yellow"
+  black: &color-black "black"
+  white: &color-white "white"
+
+font:
+  size:
+    md: &medium-font-size "1rem"
+
+space:
+  default: &default-space "16px"
+
+# Decisions
+
+background-color:
+  default: *color-white
+
+text-color:
+  default: *color-black
+
+text-size:
+  default: *medium-font-size

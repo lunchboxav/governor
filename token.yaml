@@ -6,6 +6,7 @@ color:
   blue: &color-blue "blue"
   white: &color-white "white"
   green: &color-green "seagreen"
+  grey: &color-green "#d5d5d5"
 
 font:
   size:

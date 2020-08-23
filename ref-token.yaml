@@ -1,0 +1,26 @@
+color :
+  white : &color-white "#FFFFFF"
+  black : &color-black "#000000"
+  orange :
+    82 : &color-orange-82 "#D24B00"
+    91 : &color-orange-91 "#E85200"
+    93 : &color-orange-93 "#EEAC8D"
+  neutral :
+    05 : &color-neutral-05 "#0D0D0D"
+    15 : &color-neutral-15 "#262626"
+    25 : &color-neutral-25 "#404040"
+    42 : &color-neutral-42 "#6B6B6B"
+    53 : &color-neutral-53 "#888888"
+    70 : &color-neutral-70 "#B3B1B1"
+    80 : &color-neutral-80 "#CCCACA"
+    90 : &color-neutral-90 "#E6E3E3"
+    95 : &color-neutral-95 "#F3F1F1"
+
+text-color :
+  brand : *color-orange-91
+  primary :
+    on-white : *color-neutral-05
+    on-dark : *color-white
+  secondary :
+    on-white : *color-neutral-53
+    on-dark : *color-neutral-53
